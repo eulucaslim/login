@@ -7,7 +7,7 @@ interface UserProps {
 }
 export function Login(){
     return (
-    <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
+    <div className="flex w-full flex-wrap md:flex-nowrap gap-4 border-2 border-red-500 focus:ring-red-500">
       <Input 
         label="Email" 
         type="email" 
